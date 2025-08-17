@@ -16,7 +16,7 @@ class Game:
         pygame.mixer_music.play(-1)
         while True:
             menu = Menu(self.window)
-            menu.run()
-            pass
+            menu_return = menu.run()
+
 
 
