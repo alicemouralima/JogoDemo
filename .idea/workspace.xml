@@ -4,10 +4,25 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f68b441-b0ac-4df6-9285-a2666ed61287" name="Changes" comment="Modify menu">
+    <list default="true" id="0f68b441-b0ac-4df6-9285-a2666ed61287" name="Changes" comment="menu update">
+      <change afterPath="$PROJECT_DIR$/asset/Level1Bg0.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Level1Bg1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Level1Bg2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Level1Bg3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Level1Bg4.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/game.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/game.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/1 (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/10.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/2 (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/3 (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/4 (2).png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/Const.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Const.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/background.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/background.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/enityFactory.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/entityFactory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/entity.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/entity.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/level.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/level.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -176,7 +191,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755388986128</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="menu update">
+      <option name="closed" value="true" />
+      <created>1755561449184</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1755561449184</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -196,6 +219,7 @@
     <MESSAGE value="Creating main loop&#10;connecting Menu and Game classes" />
     <MESSAGE value="Create asset past" />
     <MESSAGE value="Modify menu" />
-    <option name="LAST_COMMIT_MESSAGE" value="Modify menu" />
+    <MESSAGE value="menu update" />
+    <option name="LAST_COMMIT_MESSAGE" value="menu update" />
   </component>
 </project>
