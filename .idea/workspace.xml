@@ -4,25 +4,86 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f68b441-b0ac-4df6-9285-a2666ed61287" name="Changes" comment="menu update">
-      <change afterPath="$PROJECT_DIR$/asset/Level1Bg0.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Level1Bg1.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Level1Bg2.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Level1Bg3.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Level1Bg4.png" afterDir="false" />
+    <list default="true" id="0f68b441-b0ac-4df6-9285-a2666ed61287" name="Changes" comment="Creating menu interations&#10;Creating ABC class&#10;And more...">
+      <change afterPath="$PROJECT_DIR$/asset/Knight_01__ATTACK_000.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Knight_01__ATTACK_001.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Knight_01__ATTACK_002.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Knight_01__ATTACK_003.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Knight_01__ATTACK_004.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Knight_01__ATTACK_005.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Knight_01__ATTACK_006.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Knight_01__ATTACK_007.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Knight_01__ATTACK_008.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Knight_01__ATTACK_009.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Knight_01__DIE_000.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Knight_01__DIE_001.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Knight_01__DIE_002.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Knight_01__DIE_003.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Knight_01__DIE_004.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Knight_01__DIE_005.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Knight_01__DIE_006.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Knight_01__DIE_007.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Knight_01__DIE_008.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Knight_01__DIE_009.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Knight_01__HURT_000.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Knight_01__HURT_001.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Knight_01__HURT_002.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Knight_01__HURT_003.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Knight_01__HURT_004.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Knight_01__HURT_005.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Knight_01__HURT_006.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Knight_01__HURT_007.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Knight_01__HURT_008.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Knight_01__HURT_009.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Knight_01__IDLE_000.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Knight_01__IDLE_001.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Knight_01__IDLE_002.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Knight_01__IDLE_003.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Knight_01__IDLE_004.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Knight_01__IDLE_005.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Knight_01__IDLE_006.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Knight_01__IDLE_007.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Knight_01__IDLE_008.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Knight_01__IDLE_009.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Knight_01__JUMP_000.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Knight_01__JUMP_001.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Knight_01__JUMP_002.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Knight_01__JUMP_003.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Knight_01__JUMP_004.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Knight_01__JUMP_005.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Knight_01__JUMP_006.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Knight_01__JUMP_007.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Knight_01__JUMP_008.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Knight_01__JUMP_009.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Knight_01__RUN_000.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Knight_01__RUN_001.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Knight_01__RUN_002.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Knight_01__RUN_003.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Knight_01__RUN_004.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Knight_01__RUN_005.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Knight_01__RUN_006.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Knight_01__RUN_007.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Knight_01__RUN_008.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Knight_01__RUN_009.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Knight_01__WALK_000.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Knight_01__WALK_001.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Knight_01__WALK_002.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Knight_01__WALK_003.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Knight_01__WALK_004.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Knight_01__WALK_005.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Knight_01__WALK_006.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Knight_01__WALK_007.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Knight_01__WALK_008.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/asset/Knight_01__WALK_009.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/plataforma.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/code/plataformaTile.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/1 (2).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/10.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/2 (2).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/3 (2).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/4 (2).png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/5.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/Const.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/Const.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/background.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/background.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/enityFactory.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/entityFactory.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/568776__gertraut_hecher__medieval-tune-knights-castle.wav" beforeDir="false" afterPath="$PROJECT_DIR$/asset/Level1_music.wav" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/enemy.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/enemy.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/entity.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/entity.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/entityFactory.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/entityFactory.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/level.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/level.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/menu.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -199,7 +260,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755561449184</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="Creating menu interations&#10;Creating ABC class&#10;And more...">
+      <option name="closed" value="true" />
+      <created>1755654713108</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1755654713108</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -220,6 +289,7 @@
     <MESSAGE value="Create asset past" />
     <MESSAGE value="Modify menu" />
     <MESSAGE value="menu update" />
-    <option name="LAST_COMMIT_MESSAGE" value="menu update" />
+    <MESSAGE value="Creating menu interations&#10;Creating ABC class&#10;And more..." />
+    <option name="LAST_COMMIT_MESSAGE" value="Creating menu interations&#10;Creating ABC class&#10;And more..." />
   </component>
 </project>
