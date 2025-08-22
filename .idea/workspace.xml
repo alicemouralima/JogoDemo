@@ -4,86 +4,18 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0f68b441-b0ac-4df6-9285-a2666ed61287" name="Changes" comment="Creating menu interations&#10;Creating ABC class&#10;And more...">
-      <change afterPath="$PROJECT_DIR$/asset/Knight_01__ATTACK_000.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Knight_01__ATTACK_001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Knight_01__ATTACK_002.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Knight_01__ATTACK_003.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Knight_01__ATTACK_004.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Knight_01__ATTACK_005.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Knight_01__ATTACK_006.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Knight_01__ATTACK_007.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Knight_01__ATTACK_008.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Knight_01__ATTACK_009.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Knight_01__DIE_000.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Knight_01__DIE_001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Knight_01__DIE_002.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Knight_01__DIE_003.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Knight_01__DIE_004.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Knight_01__DIE_005.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Knight_01__DIE_006.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Knight_01__DIE_007.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Knight_01__DIE_008.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Knight_01__DIE_009.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Knight_01__HURT_000.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Knight_01__HURT_001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Knight_01__HURT_002.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Knight_01__HURT_003.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Knight_01__HURT_004.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Knight_01__HURT_005.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Knight_01__HURT_006.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Knight_01__HURT_007.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Knight_01__HURT_008.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Knight_01__HURT_009.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Knight_01__IDLE_000.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Knight_01__IDLE_001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Knight_01__IDLE_002.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Knight_01__IDLE_003.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Knight_01__IDLE_004.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Knight_01__IDLE_005.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Knight_01__IDLE_006.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Knight_01__IDLE_007.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Knight_01__IDLE_008.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Knight_01__IDLE_009.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Knight_01__JUMP_000.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Knight_01__JUMP_001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Knight_01__JUMP_002.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Knight_01__JUMP_003.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Knight_01__JUMP_004.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Knight_01__JUMP_005.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Knight_01__JUMP_006.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Knight_01__JUMP_007.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Knight_01__JUMP_008.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Knight_01__JUMP_009.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Knight_01__RUN_000.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Knight_01__RUN_001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Knight_01__RUN_002.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Knight_01__RUN_003.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Knight_01__RUN_004.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Knight_01__RUN_005.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Knight_01__RUN_006.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Knight_01__RUN_007.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Knight_01__RUN_008.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Knight_01__RUN_009.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Knight_01__WALK_000.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Knight_01__WALK_001.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Knight_01__WALK_002.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Knight_01__WALK_003.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Knight_01__WALK_004.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Knight_01__WALK_005.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Knight_01__WALK_006.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Knight_01__WALK_007.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Knight_01__WALK_008.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/asset/Knight_01__WALK_009.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/plataforma.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/code/plataformaTile.py" afterDir="false" />
+    <list default="true" id="0f68b441-b0ac-4df6-9285-a2666ed61287" name="Changes" comment="uptade">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/asset/568776__gertraut_hecher__medieval-tune-knights-castle.wav" beforeDir="false" afterPath="$PROJECT_DIR$/asset/Level1_music.wav" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/enemy.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/enemy.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/entity.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/entity.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/Level1Bg0.png" beforeDir="false" afterPath="$PROJECT_DIR$/asset/Level1Bg0.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/Level1Bg1.png" beforeDir="false" afterPath="$PROJECT_DIR$/asset/Level1Bg1.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/Level1Bg2.png" beforeDir="false" afterPath="$PROJECT_DIR$/asset/Level1Bg2.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/Level1Bg3.png" beforeDir="false" afterPath="$PROJECT_DIR$/asset/Level1Bg3.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/asset/Level1Bg4.png" beforeDir="false" afterPath="$PROJECT_DIR$/asset/Level1Bg4.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/entityFactory.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/entityFactory.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/code/level.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/level.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/code/menu.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/menu.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/plataforma.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/plataforma.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/plataformaTile.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/code/player.py" beforeDir="false" afterPath="$PROJECT_DIR$/code/player.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -128,21 +60,23 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
-    &quot;Python.game.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.executor&quot;: &quot;Run&quot;,
-    &quot;Python.main.py.executor&quot;: &quot;Run&quot;,
-    &quot;Python.menu.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager&quot;: &quot;true&quot;,
-    &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;feature__level&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/alice/PycharmProjects/JogoDemo/asset&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ModuleVcsDetector.initialDetectionPerformed": "true",
+    "Python.entityFactory.executor": "Run",
+    "Python.game.executor": "Run",
+    "Python.level.executor": "Run",
+    "Python.main.executor": "Run",
+    "Python.main.py.executor": "Run",
+    "Python.menu.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager": "true",
+    "RunOnceActivity.git.unshallow": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "feature__level",
+    "last_opened_file_path": "C:/Users/alice/PycharmProjects/JogoDemo/asset"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\alice\PycharmProjects\JogoDemo\asset" />
@@ -152,7 +86,51 @@
       <recent name="C:\Users\alice\PycharmProjects\JogoDemo\asset" />
     </key>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.main">
+    <configuration name="entityFactory" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="JogoDemo" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/entityFactory.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="level" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="JogoDemo" />
+      <option name="ENV_FILES" value="" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/code" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/code/level.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="main" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="JogoDemo" />
       <option name="ENV_FILES" value="" />
@@ -178,6 +156,8 @@
     <recent_temporary>
       <list>
         <item itemvalue="Python.main" />
+        <item itemvalue="Python.level" />
+        <item itemvalue="Python.entityFactory" />
       </list>
     </recent_temporary>
   </component>
@@ -268,7 +248,15 @@
       <option name="project" value="LOCAL" />
       <updated>1755654713108</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="uptade">
+      <option name="closed" value="true" />
+      <created>1755739033211</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1755739033211</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -290,6 +278,7 @@
     <MESSAGE value="Modify menu" />
     <MESSAGE value="menu update" />
     <MESSAGE value="Creating menu interations&#10;Creating ABC class&#10;And more..." />
-    <option name="LAST_COMMIT_MESSAGE" value="Creating menu interations&#10;Creating ABC class&#10;And more..." />
+    <MESSAGE value="uptade" />
+    <option name="LAST_COMMIT_MESSAGE" value="uptade" />
   </component>
 </project>

@@ -1,28 +1,18 @@
 import pygame
-#from code.plataformaTile import PlataformaTile
 
-#class Plataforma(pygame.sprite.Sprite):
- #   def __init__(self, x, y, comprimento, tile_size=32):
-  #      super().__init__()
-   #     self.tiles = pygame.sprite.Group()
-#
- #       esquerda = "assets/Tile_01.png"
-  #      meio = "assets/Tile_02.png"
-   #     direita = "assets/Tile_03.png"
-#
- #       # Tile inicial (esquerda)
-  #      self.tiles.add(PlataformaTile(esquerda, (x, y)))
-#
- #       # Tiles do meio
-  #      for i in range(1, comprimento - 1):
-   #         self.tiles.add(PlataformaTile(meio, (x + i * tile_size, y)))
-#
- #       # Tile final (direita)
-  #      self.tiles.add(PlataformaTile(direita, (x + (comprimento - 1) * tile_size, y)))
+class Plataforma(pygame.sprite.Sprite):
+    def __init__(self, x: int, y: int, comprimento: int, tile_path: str):
+        super().__init__()
 
-   # def draw(self, screen):
-    #    for tile in self.tiles:
-     #       screen.blit(tile.image, tile.rect)
+        # Carregar o tile
+        tile_img = pygame.image.load(tile_path).convert_alpha()
+        largura_tile = tile_img.get_width()
+        altura_tile = tile_img.get_height()
 
-    #def get_tiles(self):
-     #   return self.tiles
+        # Superfície do tamanho da plataforma
+        self.image = pygame.Surface((comprimento * largura_tile, altura_tile), pygame.SRCALPHA)
+        self.rect = self.image.get_rect(topleft=(x, y))
+
+        # Desenhar os tiles lado a lado
+        for i in range(comprimento):
+            self.image.blit(tile_img, (i * largura_tile, 0))
