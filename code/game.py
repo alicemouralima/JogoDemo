@@ -4,16 +4,18 @@ import pygame
 
 from code.Const import WIN_HEIGHT, WIN_WIDTH, MENU_OPTION
 from code.level import Level
-from code.menu import Menu
+from code.MenuBg import Menu
 
 
 class Game:
     def __init__(self):
         pygame.init()
+        pygame.mixer.pre_init(44100, -16, 2, 512)
+        pygame.init()
         self.window = pygame.display.set_mode(size=(WIN_WIDTH, WIN_HEIGHT))
 
     def run(self):
-        pygame.mixer_music.load('./asset/Menu.wav')
+        pygame.mixer_music.load('./asset/Menu.ogg')
         pygame.mixer_music.play(-1)
         while True:
             menu = Menu(self.window)
@@ -27,6 +29,4 @@ class Game:
                 quit()
             else:
                 pass
-
-
 
