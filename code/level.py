@@ -7,7 +7,7 @@ import pygame
 from pygame import Surface, Rect
 from pygame.font import Font
 
-from code.Const import WIN_HEIGHT, C_WHITE, MENU_OPTION, EVENT_ENEMY, SPAWN_TIME, C_GREEN, C_CIANO, EVENT_TIMEOUT, \
+from code.Const import WIN_HEIGHT, C_LAVENDER, MENU_OPTION, EVENT_ENEMY, SPAWN_TIME, C_GREEN, C_CIANO, EVENT_TIMEOUT, \
     TIMEOUT_STEP, TIMEOUT_LEVEL
 from code.entity import Entity
 from code.entityFactory import EntityFactory
@@ -76,9 +76,9 @@ class Level:
                 if not found_player:
                     return False
 
-            self.level_text(14, f'{self.name} - Timeout: {self.timeout / 1000:.1f}s', C_WHITE, (10, 5))
-            self.level_text(14, f'fps: {clock.get_fps():.0f}', C_WHITE, (10, WIN_HEIGHT - 35))
-            self.level_text(14, f'entidades: {len(self.entity_list)}', C_WHITE, (10, WIN_HEIGHT - 20))
+            self.level_text(14, f'{self.name} - Timeout: {self.timeout / 1000:.1f}s', C_LAVENDER, (10, 5))
+            self.level_text(14, f'fps: {clock.get_fps():.0f}', C_LAVENDER, (10, WIN_HEIGHT - 35))
+            self.level_text(14, f'entidades: {len(self.entity_list)}', C_LAVENDER, (10, WIN_HEIGHT - 20))
 
             pygame.display.flip()
 
