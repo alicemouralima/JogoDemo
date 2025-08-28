@@ -7,7 +7,7 @@ import pygame
 from pygame import Surface, Rect
 from pygame.font import Font
 
-from code.Const import WIN_HEIGHT, C_LAVENDER, MENU_OPTION, EVENT_ENEMY, SPAWN_TIME, C_GREEN, C_CIANO, EVENT_TIMEOUT, \
+from code.Const import WIN_HEIGHT, C_LAVENDER, MENU_OPTION, EVENT_ENEMY, SPAWN_TIME, C_BLUE, C_CIANO, EVENT_TIMEOUT, \
     TIMEOUT_STEP, TIMEOUT_LEVEL
 from code.entity import Entity
 from code.entityFactory import EntityFactory
@@ -49,7 +49,7 @@ class Level:
                     if shoot is not None:
                         self.entity_list.append(shoot)
                 if ent.name == 'Player1':
-                    self.level_text(14, f'Player1 - Health: {ent.health} | Score: {ent.score}', C_GREEN, (10, 25))
+                    self.level_text(14, f'Player1 - Health: {ent.health} | Score: {ent.score}', C_BLUE, (10, 25))
                 if ent.name == 'Player2':
                     self.level_text(14, f'Player2 - Health: {ent.health} | Score: {ent.score}', C_CIANO, (10, 45))
             for event in pygame.event.get():

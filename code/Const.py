@@ -5,7 +5,7 @@ from pygame.examples.grid import WINDOW_WIDTH
 C_PURPLE = (138, 43, 226)
 C_LAVENDER = (200, 162, 200)
 C_ORANGE = (255, 140, 0)
-C_GREEN = (0, 128, 0)
+C_BLUE = (23, 42, 255)
 C_CIANO = (0, 128, 128)
 C_WHITE = (255, 255, 255)
 
@@ -22,8 +22,8 @@ ENTITY_HEALTH = {
     'Player1Shot': 1,
     'Player2': 300,
     'Player2Shot': 1,
-    'Enemy1': 50,
-    'Enemy2': 60
+    'Enemy1': 70,
+    'Enemy2': 80
 }
 ENTITY_DAMAGE = {
     'Level1Bg0': 0,
@@ -59,11 +59,11 @@ ENTITY_SPEED = {
     'Level1Bg1': 1,
     'Level1Bg2': 2,
     'Player1': 4,
-    'Player1Shot': 2,
+    'Player1Shot': 3,
     'Player2': 4,
-    'Player2Shot': 2,
+    'Player2Shot': 3,
     'Enemy1': 2,
-    'Enemy2': 1
+    'Enemy2': 3
 }
 # M
 MENU_OPTION = ('NEW GAME 1P',
@@ -83,10 +83,10 @@ PLAYER_KEY_RIGHT = {'Player1': pygame.K_RIGHT,
 PLAYER_KEY_SHOOT = {'Player1': pygame.K_SPACE,
                     'Player2': pygame.K_LCTRL}
 # S
-SPAWN_TIME = 1000
+SPAWN_TIME = 2000
 # T
 TIMEOUT_STEP = 100
-TIMEOUT_LEVEL = 20000
+TIMEOUT_LEVEL = 40000
 # W
 WIN_WIDTH = 576
 WIN_HEIGHT = 324
