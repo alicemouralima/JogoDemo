@@ -5,7 +5,7 @@ import pygame
 from pygame import Surface, Rect, KEYDOWN, K_RETURN, K_BACKSPACE, K_ESCAPE
 from pygame.font import Font
 
-from code.Const import C_PURPLE, SCORE_POS, MENU_OPTION, C_LAVENDER, C_WHITE
+from code.Const import C_PURPLE, SCORE_POS, MENU_OPTION, C_WHITE
 from code.DBProxy import DBProxy
 
 
@@ -24,16 +24,16 @@ class Score:
         while True:
             self.window.blit(source=self.surf, dest=self.rect)
             self.score_text(30, 'VICTORY! YOU DID GREAT!', C_PURPLE, SCORE_POS['Title'])
+            text = 'Enter Player 1 name (4 characters):'
+            score = player_score[0]
             if game_mode == MENU_OPTION[0]:
                 score = player_score[0]
-                text = 'Enter Player 1 name (4 characters):'
             if game_mode == MENU_OPTION[1]:
                 score = (player_score[0] + player_score[1]) / 2
                 text = 'Enter team name (4 characters):'
             if game_mode == MENU_OPTION[2]:
                 if player_score[0] >= player_score[1]:
                     score = player_score[0]
-                    text = 'Enter Player 1 name (4 characters):'
                 else:
                     score = player_score[1]
                     text = 'Enter Player 2 name (4 characters):'

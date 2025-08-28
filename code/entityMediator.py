@@ -1,4 +1,4 @@
-from code import entity
+
 from code.Const import WIN_WIDTH
 from code.PlayerShot import PlayerShot
 from code.enemy import Enemy
